@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url(../images/8.jpg) fixed no-repeat center ;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 19px rgb(255, 255, 255);
+}
+.d{
+    height: 138px;
+    width: 138px;
+    border-top: 5px solid white;
+    border-radius:50%;
+    border-right: 5px solid rgb(0, 0, 0);
+    animation: pageLoading 2.5s infinite linear;
+}
+
+.div1{
+    position: relative;
+    animation: move1 3s forwards ;
+}
+@keyframes move1{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div2{
+    position: relative;
+    left:100%;
+    animation: move2 3s reverse forwards linear;
+    animation-delay: 3s;
+}
+@keyframes move2{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div3{
+    position: relative;
+    animation: move3 3s forwards ;
+    animation-delay: 6s;
+}
+@keyframes move3{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div4{
+    position: relative;
+    left:100%;
+    animation: move4 3s reverse forwards linear ;
+    animation-delay: 9s;
+}
+@keyframes move4{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div5{
+    position: relative;
+    animation: move5 3s forwards ;
+    animation-delay: 12s;
+}
+@keyframes move5{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div6{
+    position: relative;
+    left:100%;
+    animation: move6 3s reverse forwards linear;
+    animation-delay: 15s;
+}
+@keyframes move6{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div7{
+    position: relative;
+    animation: move7 3s forwards ;
+    animation-delay: 18s;
+}
+@keyframes move7{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+
+.div8{
+    position: relative;
+    left:100%;
+    animation: move8 3s reverse forwards linear;
+    animation-delay: 21s;
+}
+@keyframes move8{
+    0%{transform: rotate(0deg); left: 0px;}
+    100%{transform: rotate(360deg); left: 1270px;}
+}
+.imgblack{
+    height: 130px;
+    width: 130px
+}
+/* ////////////////////////////////////////////////////////////// */
+.bubbles{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -50px;
+    width: 100%;
+}
+@keyframes bubble {
+    0%{transform: translate(0, 0);}
+    100%{transform: translate(0, -2500px); opacity: 0;}
+}
+.img1{
+    animation: bubble 5s infinite ;
+    width: 25px;
+    height: 25px;
+}
+.img2{
+    animation: bubble 6s infinite ;
+    width: 35px;
+    height: 35px;
+}
+.img3{
+    animation: bubble 7.5s infinite ;
+    width: 50px;
+    height: 50px;
+}
+.img4{
+    animation: bubble 9s infinite ;
+    width: 45px;
+    height: 45px;
+}
+.img5{
+    animation: bubble 6.7s infinite ;
+    width: 21px;
+    height: 21px;
+}
+.img6{
+    animation: bubble 8.5s infinite ;
+    width: 35px;
+    height: 35px;
+}
+.img7{
+    animation: bubble 4.5s infinite ;
+    width: 55px;
+    height: 55px;
+}
